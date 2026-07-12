@@ -4,7 +4,7 @@ A premium interactive portfolio showcasing my journey in Artificial Intelligence
 
 ## 🌐 Live Portfolio
 
-Portfolio: https://jigyasaportfolio-21289a.gitlab.io/
+Portfolio: https://jigyasaportfolio.vercel.app/
 
 ## 👩‍💻 About Me
 
@@ -20,7 +20,7 @@ My interests include:
 * Backend Engineering
 * System Design
 
-Currently, I am building **HalluGuard**, a GenAI project focused on hallucination detection and mitigation in Large Language Models.
+
 
 ---
 
@@ -125,9 +125,8 @@ Planned improvements for the portfolio:
 
 ## 📬 Contact
 
-LinkedIn: https://linkedin.com/in/Jigyasa Gupta
+LinkedIn: https://www.linkedin.com/in/jigyasa-gupta-058594320?utm_source=share_via&utm_content=profile&utm_medium=member_android
 
-GitHub: (https://github.com/jagga-glitch)
 
 Email: guptajigyasa893@gmail.com
 
