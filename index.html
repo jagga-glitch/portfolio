@@ -1135,11 +1135,8 @@ if (statsEl) counterObserver.observe(statsEl);
 // ===== FORM =====
 // Uses Formspree (https://formspree.io) to actually deliver the message to your
 // inbox — no default mail client required on the visitor's device.
-// 1. Go to https://formspree.io and sign up (free tier is fine).
-// 2. Create a new form connected to guptajigyasa893@gmail.com.
-// 3. Copy the endpoint it gives you (looks like https://formspree.io/f/xxxxabcd)
-//    and paste it below in place of YOUR_FORM_ID.
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID';
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xlgqrojz';
+const FORMSPREE_PLACEHOLDER = 'YOUR_FORM_ID';
 
 async function handleForm(e) {
   e.preventDefault();
@@ -1154,7 +1151,7 @@ async function handleForm(e) {
 
   // Fallback path: Formspree hasn't been configured yet, so open the visitor's
   // mail client instead (same as before) rather than failing silently.
-  if (FORMSPREE_ENDPOINT.includes('https://formspree.io/f/xlgqrojz')) {
+  if (FORMSPREE_ENDPOINT.includes(FORMSPREE_PLACEHOLDER)) {
     const mailto = `mailto:guptajigyasa893@gmail.com?subject=${encodeURIComponent(subject || 'Portfolio Contact')}&body=${encodeURIComponent(`From: ${name}\nEmail: ${email}\n\n${message}`)}`;
     window.location.href = mailto;
     statusEl.style.color = 'var(--muted)';
